@@ -41,6 +41,14 @@ ul {
     background-attachment: fixed;
 }
 
+#demoreq.header {
+    height: 600px;
+    background: url('../images/request.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
 #lineOfBusniness.header {
     height: 600px;
     background: url('../images/Head1.jpg');
