@@ -33,6 +33,14 @@ ul {
     background-attachment: fixed;
 }
 
+#contact.header {
+    height: 600px;
+    background: url('../images/Head3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
 #lineOfBusniness.header {
     height: 600px;
     background: url('../images/Head1.jpg');
@@ -293,4 +301,20 @@ section.anytime img {
 .box-any img {
     width: 25% !important;
     margin: auto;
+}
+
+.form input {
+    margin: 10px auto
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: #ddd
+}
+
+.googleMap {
+    height: 400px;
 }
