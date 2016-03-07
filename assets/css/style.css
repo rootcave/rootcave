@@ -261,7 +261,7 @@ ul.icons li {
 }
 
 .about-box .fa {
-    color: #5FAD5F;
+    color: #008BD0;
     font-size: 50px;
 }
 
@@ -269,6 +269,28 @@ ul.icons li {
     color: #5FAD5F;
 }
 
-.aboutme h1 {
-    color: #3997E8;
+section.aboutme img {
+    margin: auto;
+    width: 20%;
+}
+
+
+.mobile {
+    background: url('../images/Mob2.jpg');
+    background-size: cover;
+    background-position: bottom
+}
+
+section.anytime {
+    background: #222;
+}
+
+section.anytime img {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.box-any img {
+    width: 25% !important;
+    margin: auto;
 }
