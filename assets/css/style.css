@@ -25,6 +25,15 @@ ul {
 }
 
 /*-- header --*/
+
+#mopile.header {
+    height: 600px;
+    background: url('../images/Mob2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
 #header.header {
     height: 600px;
     background: url('../images/request.jpg');
@@ -325,4 +334,17 @@ section.anytime img {
 
 .googleMap {
     height: 400px;
+}
+.icons-mop {
+    width: 100%;
+    text-align: center;
+    padding: 0
+}
+.icons-mop li {
+    display: inline-block;
+    margin: 0 60px auto
+}
+
+.app-mop .btn {
+    width: 100%
 }

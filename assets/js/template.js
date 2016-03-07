@@ -38,6 +38,7 @@ angular.module("rootCave", [])
         promise.then(function (rcdata) {
             $scope.about = rcdata.data.about;
             $scope.products = rcdata.data.products;
+            $scope.mopileProduct = rcdata.data.mopileProduct;
             console.log($scope.about);
             console.log($scope.products);
         });
