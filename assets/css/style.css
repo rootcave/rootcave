@@ -348,3 +348,12 @@ section.anytime img {
 .app-mop .btn {
     width: 100%
 }
+
+.screen-shoot img {
+    width: 140px;
+    display: inline-block;
+}
+.spec {
+    background: #EFEEEE;
+}
+
