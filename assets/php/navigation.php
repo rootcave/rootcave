@@ -17,11 +17,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">home</a></li>
+                <li><a href="index.php">home</a></li>
                 <li><a href="#">about us</a></li>
-                <li><a href="line-of-business.html">products</a></li>
+                <li><a href="line-of-business.php">products</a></li>
                 <li><a href="#">team</a></li>
-                <li><a href="contact.html">contact us</a></li>
+                <li><a href="contact.php">contact us</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

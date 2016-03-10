@@ -6,7 +6,7 @@
     <!-- head End -->
 
 <!--    <rchead></rchead>-->
-<body id="contact">
+<body>
 
     <!-- Header Start ---->
     <header class="header" id="contact">
