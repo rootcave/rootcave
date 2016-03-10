@@ -24,6 +24,7 @@ angular.module("rootCave", ['ngRoute'])
             $scope.clients = rcdata.data.clients;
             $scope.anytime = rcdata.data.anytime;
             $scope.lobProduct = rcdata.data.lobProduct;
+            $scope.Product = rcdata.data.lobProduct.projectsdetails;
         });
     })
 

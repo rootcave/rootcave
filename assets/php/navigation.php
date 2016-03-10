@@ -22,6 +22,8 @@
                 <li><a href="line-of-business.php">products</a></li>
                 <li><a href="#">team</a></li>
                 <li><a href="contact.php">contact us</a></li>
+                <li class="hidden-sm hidden-xs" style="font-size: 35px;color:#FFF;margin-top: 15px;">|</li>
+                <li><a href="#" class="btn btn-primary">Demo</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

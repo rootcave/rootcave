@@ -68,8 +68,8 @@
 
     <section class="product-detial padding">
         <div class="container">
-            <div class="row" data-ng-controller="queryCtrl">
-                <div class="col-md-6" data-ng-repeat="detial in projectsdetails">
+            <div class="row">
+                <div class="col-md-6" data-ng-repeat="detial in Product">
                     <div class="prdct-d">
                         <img class="img-responsive" src="assets/images/Computer/{{detial.mockup}}">
                         <p>
