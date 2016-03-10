@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="rootCave">
-
-    <!-- head start -->
-    <rchead></rchead>
-    <!-- head End -->
-
-<!--    <rchead></rchead>-->
-<body data-ng-controller="aboutCtrl">
+    <?php include('assets/php/head.php'); ?>
 
     <!-- Header Start ---->
     <header class="header" id="mopile">
         <!-- navigation Start -->
-        <rcnav></rcnav>
+        <?php include('assets/php/navigation.php'); ?>
         <!-- navigation End -->
+
         <div class="container padding">
             <div class="row">
                 <div class="col-sm-6">
@@ -53,14 +46,15 @@
             <div class="row">
                 <div class="col-sm-6" data-ng-repeat="items in mopileProduct">
                     <div class="app-mop">
-                        <div class="col-xs-4">
+                        <div class="col-xs-5">
                             <img class="img-responsive" src="assets/images/{{items.mockup}}">
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-7">
+                            <h2>{{items.title}}</h2>
                             <p>
                                 {{items.description}}
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
+                            <a href="{{items.id}}" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -69,25 +63,5 @@
     </section>
 
 
-
-    <!-- footer start -->
-    <rcfooter></rcfooter>
-    <!-- footer End -->
-
-    <!-- JavaScript Files -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/js/jquery-1.11.3.min.js"></script>
-    <!-- angular js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- smoth scroll -->
-    <script src="assets/js/SmoothScroll.js"></script>
-    <!-- JavaScript Files -->
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/template.js"></script>
-
-
-</body>
-</html>
+    <!-- start footer -->
+    <?php include('assets/php/footer.php'); ?>

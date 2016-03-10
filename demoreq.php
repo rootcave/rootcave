@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="rootCave">
-
-    <!-- head start -->
-    <rchead></rchead>
-    <!-- head End -->
-
-<!--    <rchead></rchead>-->
-<body>
+    <?php include('assets/php/head.php'); ?>
 
     <!-- Header Start ---->
     <header class="header" id="demoreq">
         <!-- navigation Start -->
-        <rcnav></rcnav>
+        <?php include('assets/php/navigation.php'); ?>
         <!-- navigation End -->
     </header>
     <!-- Header ---->
@@ -36,24 +28,4 @@
     </section>
 
 
-    <!-- footer start -->
-    <rcfooter></rcfooter>
-    <!-- footer End -->
-
-    <!-- JavaScript Files -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/js/jquery-1.11.3.min.js"></script>
-    <!-- angular js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- smoth scroll -->
-    <script src="assets/js/SmoothScroll.js"></script>
-    <!-- JavaScript Files -->
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/template.js"></script>
-
-
-</body>
-</html>
+    <?php include('assets/php/footer.php'); ?>
