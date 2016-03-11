@@ -72,12 +72,12 @@
         </div>
     </section>
 
-    <section class="product-detial padding">
+    <section class="product-detail padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" data-ng-repeat="detial in Product">
+                <div class="col-md-6" data-ng-repeat="detail in Product">
                     <div class="prdct-d">
-                        <img class="img-responsive" src="<?php echo $img; ?>Computer/{{detial.mockup}}">
+                        <img class="img-responsive" src="<?php echo $img; ?>Computer/{{detail.mockup}}">
                         <p>
                             {{detial.description}}
                         </p>

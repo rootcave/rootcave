@@ -43,15 +43,18 @@
                 </p>
                 <br><br>
             </div>
-            <div class="row">
-                <div class="col-sm-3 col-md-3" data-ng-repeat="items in about">
-                    <div class="about-box">
-                        <img ng-src= "<?php echo $img_about; ?>{{items.icon}}"> 
-                        <h3>{{items.title}}</h3>
-                        <p>{{items.description}}</p>
-                    </div>
-                </div>
-            </div>
+<div class="row" ng-repeat="items in about track by $index" ng-if="$index % 4 == 0">
+  <div class="col-sm-3" 
+       ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" 
+       ng-if="about[i]"
+      >
+      <div class="about-box">
+           <img ng-src= "<?php echo $img_about; ?>{{about[i].icon}}"> 
+           <h3>{{about[i].title}}</h3>
+           <p>{{about[i].description}}</p>
+      </div>
+  </div>
+</div>
         </div>
     </section>
 

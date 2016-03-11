@@ -1,0 +1,84 @@
+Home Page
+
+Solution 1
+
+<div class="row" ng-repeat="items in about track by $index" ng-if="$index % 4 == 0">
+  <div class="col-sm-3" 
+       ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" 
+       ng-if="about[i]"
+      >
+      <div class="about-box">
+           <img ng-src= "<?php echo $img_about; ?>{{about[i].icon}}"> 
+           <h3>{{about[i].title}}</h3>
+           <p>{{about[i].description}}</p>
+      </div>
+  </div>
+</div>
+
+
+Solution 2
+
+make a list inside a list in the json
+  "about":[
+    [
+     {
+            "icon":"1-sales.png",
+            "title":"Sales",
+            "description": "Sales by Root Cave CRM provides a complete and intuitive solution that can help salespeople be more productive so they can focus on what's most important—delivering amazing customer experiences."
+        },
+
+        {
+            "icon":"2-cs.png",
+            "title":"Service",
+            "description": "Service by Root Cave CRM empowers customers through their choice of self and assisted service options; empowers agents to deliver fast, informed and effective resolutions; and seamlessly incorporates field solutions when there is a need for onsite help. Our agile solutions easily adapt to changing demands so that your business can deliver intent driven outcomes in a secure, flexible and reliable environment.."
+        },
+
+        {
+            "icon":"3-marketing.png",
+            "title":"Marketing",
+            "description": "Root Cave Marketing is an integrated marketing resource management solution for marketing operation, planning, execution, and analytics across all channels—email, digital, social, SMS, and traditional."
+        },
+
+        {
+            "icon":"4-financials.png",
+            "title":"Finance",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+        }
+    ],
+    [
+    {
+            "icon":"5-hr.png",
+            "title":"Human Resources",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+        },
+
+        {
+            "icon":"6-ecommerce.png",
+            "title":"Ecommerce",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+        },
+
+        {
+            "icon":"7-school.png",
+            "title":"School",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+        },
+
+        {
+            "icon":"8-medical.png",
+            "title":"Medical",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+        }
+    ]
+    ],
+
+and in the home page
+        <div class="row" ng-repeat="items in about">
+                <div class="col-sm-3 col-md-3" data-ng-repeat="item in items">
+                    <div class="about-box">
+                        <img ng-src= "<?php echo $img_about; ?>{{item.icon}}"> 
+                        <h3>{{item.title}}</h3>
+                        <p>{{item.description}}</p>
+                    </div>
+                </div>
+            </div>
