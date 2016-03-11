@@ -6,8 +6,7 @@ angular.module("rootCave", ['ngRoute'])
     .service('aboutService', function ($http, $q) {
         "use strict";
         var deferred = $q.defer();
-
-        $http.get('assets/data.json').then(function (rcdata) {
+        $http.get('data/data.json').then(function (rcdata) {
             deferred.resolve(rcdata);
         });
         this.getAbout = function () {
@@ -20,7 +19,7 @@ angular.module("rootCave", ['ngRoute'])
         promise.then(function (rcdata) {
             $scope.about = rcdata.data.about;
             $scope.products = rcdata.data.products;
-            $scope.mopileProduct = rcdata.data.mopileProduct;
+            $scope.mobileProduct = rcdata.data.mobileProduct;
             $scope.clients = rcdata.data.clients;
             $scope.anytime = rcdata.data.anytime;
             $scope.lobProduct = rcdata.data.lobProduct;

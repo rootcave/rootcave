@@ -1,9 +1,11 @@
-    <?php include('assets/php/head.php'); ?>
+    <?php
+    include 'config.php';
+     include($includes.'head.php'); ?>
 
     <!-- Header Start ---->
     <header class="header" id="mopile">
         <!-- navigation Start -->
-        <?php include('assets/php/navigation.php'); ?>
+        <?php include($includes.'navigation.php'); ?>
         <!-- navigation End -->
 
         <div class="container padding">
@@ -24,7 +26,7 @@
     <section class="three-mob">
         <div class="container">
             <div class="row">
-                <img class="img-responsive" src="assets/images/Mob.jpg">
+                <img class="img-responsive" ng-src="<?php echo $img; ?>Mob.jpg">
             </div>
         </div>
     </section>
@@ -44,10 +46,10 @@
     <section class="mopile-appl padding">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6" data-ng-repeat="items in mopileProduct">
+                <div class="col-sm-6" data-ng-repeat="items in mobileProduct">
                     <div class="app-mop">
                         <div class="col-xs-5">
-                            <img class="img-responsive" src="assets/images/{{items.mockup}}">
+                            <img class="img-responsive" ng-src="<?php echo $img; ?>{{items.mockup}}">
                         </div>
                         <div class="col-xs-7">
                             <h2>{{items.title}}</h2>
@@ -64,4 +66,4 @@
 
 
     <!-- start footer -->
-    <?php include('assets/php/footer.php'); ?>
+    <?php include($includes.'footer.php'); ?>

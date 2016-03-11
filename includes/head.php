@@ -22,11 +22,11 @@
         <!---- title ---->
 
         <!---- syles ---->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/fonts/flat-icon/flaticon.css">
+        <link rel="stylesheet" href="<?php echo $css; ?>bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $fonts; ?>flat-icon/flaticon.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="<?php echo $css; ?>style.css">
+        <link rel="stylesheet" href="<?php echo $css; ?>responsive.css">
         <!---- syles ---->
 
     </head>

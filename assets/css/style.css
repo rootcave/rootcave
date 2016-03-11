@@ -23,12 +23,15 @@ ul {
 .white {
     color: #FFF;
 }
+.rcColor{
+    color: #1B75BB;
+}
 
 /*-- header --*/
 
 #mopile.header {
     height: 600px;
-    background: url('../images/Mob2.jpg');
+    background: url('../img/Mob2.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -36,7 +39,7 @@ ul {
 
 #header.header {
     height: 600px;
-    background: url('../images/request.jpg');
+    background: url('../img/request.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -44,7 +47,7 @@ ul {
 
 #contact.header {
     height: 600px;
-    background: url('../images/Head3.jpg');
+    background: url('../img/Head3.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -52,7 +55,7 @@ ul {
 
 #demoreq.header {
     height: 600px;
-    background: url('../images/request.jpg');
+    background: url('../img/request.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -60,14 +63,14 @@ ul {
 
 #lineOfBusniness.header {
     height: 600px;
-    background: url('../images/Head1.jpg');
+    background: url('../img/Head1.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
 }
 #product.header {
     height: 600px;
-    background: url('../images/Head2.jpg');
+    background: url('../img/Head2.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -126,7 +129,7 @@ ul {
 
 /* footer start */
 .footer {
-    background: url('../images/footer.jpg');
+    background: url('../img/footer.jpg');
     background-size: cover;
     padding: 50px 0 10px
 }
@@ -241,7 +244,7 @@ ul.icons li {
 }
 
 .green-l  {
-    background: url('../images/Comp.jpg');
+    background: url('../img/Comp.jpg');
     background-size: cover;
     padding: 80px 0
 }
@@ -301,7 +304,7 @@ section.aboutme img {
 
 
 .mobile {
-    background: url('../images/Mob2.jpg');
+    background: url('../img/Mob2.jpg');
     background-size: cover;
     background-position: bottom
 }
