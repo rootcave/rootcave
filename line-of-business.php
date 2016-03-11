@@ -1,9 +1,11 @@
-<?php include ('assets/php/head.php'); ?>
+<?php
+include "config.php";
+ include ($includes.'head.php'); ?>
 
     <!-- Header Start ---->
     <header id="lineOfBusniness" class="header">
         <!-- navigation Start -->
-        <?php include ('assets/php/navigation.php'); ?>
+        <?php include ($includes.'navigation.php'); ?>
         <!-- navigation End -->
     </header>
     <!-- Header ---->
@@ -24,7 +26,7 @@
 
                 <div class="col-sm-6">
                     <div class="lob-box">
-                        <img class="img-responsive" src="assets/images/pc2.png">
+                        <img class="img-responsive" src="<?php echo $img; ?>pc2.png">
                     </div>
                 </div>
             </div>
@@ -47,14 +49,14 @@
                 <div class="col-sm-6" data-ng-repeat="product in lobProduct">
                     <div class="product">
                         <div class="col-sm-6">
-                            <img src="assets/images/Computer/{{product.mockup}}" class="img-responsive">
+                            <img src="<?php echo $img; ?>Computer/{{product.mockup}}" class="img-responsive">
                         </div>
                         <div class="col-sm-6">
                             <h2>{{product.title}}</h2>
                             <p>
                                 {{product.tDesc}}
                             </p>
-                            <a href="{{product.id}}" class="btn btn-primary">Learn More</a>
+                            <a href="product.php?id={{product.id}}" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -79,7 +81,7 @@
                 <div class="col-sm-6">
                     <div class="l-box">
 
-                        <img class="img-responsive" src="assets/images/PcColl.png">
+                        <img class="img-responsive" src="<?php echo $img; ?>PcColl.png">
                     </div>
                 </div>
 
@@ -93,7 +95,7 @@
                 <div class="col-sm-6">
                     <div class="l-box">
 
-                        <img class="img-responsive" src="assets/images/PcColl.png">
+                        <img class="img-responsive" src="<?php echo $img; ?>PcColl.png">
                     </div>
                 </div>
 
@@ -112,4 +114,4 @@
         </div>
     </section>
 
-    <?php include ('assets/php/footer.php'); ?>
+    <?php include ($includes.'footer.php'); ?>

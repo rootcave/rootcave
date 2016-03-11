@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="footer-box white">
-                        <img class="img-responsive" src="assets/images/Logo_white.png">
+                        <img class="img-responsive" src="<?php echo $img; ?>Logo_white.png">
                         <p>
                         Lorem ipsum dolor sit amet, vitae perfecto philosophia nam ea, no justo elitr forensibus duo, tacimates adolescens et cum. Vero idque homero has ea, at aliquid accumsan pri. Stet scripserit id eos. Ea ornatus inermis pertinacia est, mel ut idque pericula theophrastus, ut mea malorum indoctum. Ex accusam percipitur duo, discere signiferumque nam ex, aperiri pericula ei pri.
                         </p>
@@ -29,7 +29,7 @@
 
                 <div class="col-sm-4">
                     <div class="footer-box white">
-                        <h3 class="upper">stay in touch</h3>
+                        <h3 class="upper">Stay in touch</h3>
                         <form action="" method="post">
                             <input class="form-control" type="email" name="email" placeholder="stay in touch..." required>
                         </form>
@@ -53,14 +53,14 @@
 <!-- JavaScript Files -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="<?php echo $js; ?>jquery-1.11.3.min.js"></script>
     <!-- angular js -->
-    <script src="assets/js/angular.min.js"></script>
-    <script src="assets/js/angular-route.min.js"></script>
+    <script src="<?php echo $js; ?>angular.min.js"></script>
+    <script src="<?php echo $js; ?>angular-route.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo $js; ?>bootstrap.min.js"></script>
     <!-- smoth scroll -->
-    <script src="assets/js/SmoothScroll.js"></script>
+    <script src="<?php echo $js; ?>SmoothScroll.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <!-- GOOGLE MAP -->
     <script type="text/javascript">
@@ -99,7 +99,7 @@
         </script>
 
     <!-- JavaScript Files -->
-    <script src="assets/js/script.js"></script>
+    <script src="<?php echo $js; ?>script.js"></script>
 
 
     </body>
