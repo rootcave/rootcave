@@ -1,5 +1,5 @@
 <!-- navigation Start -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -24,7 +24,7 @@
           <ul class="dropdown-menu">
             <li><a href="line-of-business.php">Line Of Business App</a></li>
             <li><a href="mobile-apps.php">Mobile App</a></li>
-            
+
           </ul>
         </li>
 
