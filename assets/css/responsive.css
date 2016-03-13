@@ -50,3 +50,14 @@
         margin: -15px auto;
     }
 }
+
+@media only screen and (min-width : 992px) and (max-width: 1200px) {
+    .nav>li {
+        margin: -15px auto;
+    }
+
+    .navbar-right {
+        margin-top: ;
+    }
+}
+

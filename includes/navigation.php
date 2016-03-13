@@ -30,7 +30,7 @@
 
                 <li><a href="index.php#customers">customers</a></li>
                 <li><a href="contact.php">contact us</a></li>
-                <li class="hidden-sm hidden-xs" style="font-size: 35px;color:#FFF;margin-top: 15px;">|</li>
+                <li class="hidden-md hidden-sm hidden-xs" style="font-size: 35px;color:#FFF;margin-top: 15px;">|</li>
                 <li><a href="demo.php" class="btn btn-primary">Demo</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->

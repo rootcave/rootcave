@@ -19,16 +19,10 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="assets/img/request.jpg" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
+
             </div>
             <div class="item">
-              <img src="assets/img/Home.jpg" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
+
             </div>
             ...
           </div>
@@ -69,7 +63,7 @@
 
 
     <section class="aboutme padding" id=aboutUs>
-        <div class="container text-center">
+        <div class="container-fluid text-center">
             <div class="row">
                 <h1 class="text-center"><span class="rcColor">Root Cave</span> at a glance</h1>
 
