@@ -1,13 +1,14 @@
 
-    <?php 
+    <?php
     include 'config.php';
-    include ($includes.'head.php'); 
+    include ($includes.'head.php');
+    include ('loading.php');
     $jsondata=file_get_contents("data/data.json");
     $json= json_decode($jsondata,true);
     //echo $json['lobProduct'][0]['id'];
 
 
-    $id=$_GET['id']; 
+    $id=$_GET['id'];
     ?>
 
     <!-- Header Start ---->
@@ -55,9 +56,9 @@
                     <div class="l-box">
                         <p class="white">
                         <?php echo $json['lobProduct'][$id]['projectsdetails'][0]['description_details'];  ?>
-                          
+
                         </p>
-                       
+
                     </div>
                 </div>
 

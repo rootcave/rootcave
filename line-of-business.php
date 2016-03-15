@@ -1,6 +1,8 @@
 <?php
 include "config.php";
- include ($includes.'head.php'); ?>
+ include ($includes.'head.php');
+ include ('loading.php');
+?>
 
     <!-- Header Start ---->
     <header id="lineOfBusniness" class="header">

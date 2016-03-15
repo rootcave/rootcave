@@ -34,11 +34,11 @@
                             <input class="form-control" type="email" name="email" placeholder="stay in touch..." required>
                         </form>
                         <ul class="social">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+                            <li><a href="https://www.facebook.com/rootcave"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/rootcave_team"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/root-cave"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                         </ul>
 
                         <div class="copy">
@@ -53,7 +53,7 @@
 <!-- JavaScript Files -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script   src="https://code.jquery.com/jquery-1.12.1.min.js"   integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I="   crossorigin="anonymous"></script>
+    <script src="<?php echo $js; ?>jquery-1.11.3.min.js"></script>
 
     <!-- angular js -->
     <script src="<?php echo $js; ?>angular.min.js"></script>
@@ -101,9 +101,19 @@
     <script>
         $(".nav li a").click(function() {
             $('html, body').animate({
-                scrollTop: $("#aboutUs, #customers").offset().top
+                scrollTop: $($.attr(this, 'href')).offset().top
             }, 2000);
         });
+    </script>
+
+    <script>
+        $(window).load(
+            function () {
+                $(".loading").fadeOut(2000, function () {
+                    $(this).parent().fadeOut(2000);
+                });
+            }
+        );
     </script>
 
     <!-- JavaScript Files -->

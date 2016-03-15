@@ -1,4 +1,8 @@
-    <?php include('assets/php/head.php'); ?>
+    <?php include('assets/php/head.php');
+     include ('loading.php');
+
+?>
+
 
     <!-- Header Start ---->
     <header class="header" id="mopile">
