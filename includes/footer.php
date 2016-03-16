@@ -5,11 +5,11 @@
                     <div class="footer-box white">
                         <img class="img-responsive" src="<?php echo $img; ?>Logo_white.png">
                         <ul class="social">
-                            <li><a href="https://www.facebook.com/rootcave"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/rootcave_team"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/root-cave"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                            <li><a target='_blank' href="https://www.facebook.com/rootcave"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target='_blank' href="https://twitter.com/rootcave_team"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target='_blank' href="https://www.linkedin.com/company/root-cave"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target='_blank' href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a target='_blank' href="#"><i class="fa fa-youtube-play"></i></a></li>
                         </ul>
 
                         <div class="copy">
@@ -83,7 +83,7 @@
         }
     </script>
     <script>
-        $(".nav li a").click(function() {
+        $("a").click(function() {
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 2000);

@@ -1,7 +1,7 @@
 <?php
     include 'config.php';
     include ($includes.'head.php');
-    /*include ('loading.php');*/
+    include ('loading.php');
 ?>
 
 
@@ -16,7 +16,7 @@
             <div class="col-sm-5">
                 <div class="header-cont">
                     <h1 class="typing"></h1>
-                    <a class="btn btn-primary" href="demo.php">Get Started</a>
+                    <a class="btn btn-primary" href="#start">Get Started</a>
                 </div>
             </div>
 
@@ -65,7 +65,7 @@
     </div>
 </section>
 
-<section class="green-l padding">
+<section class="green-l padding" id="start">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
