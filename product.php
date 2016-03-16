@@ -16,64 +16,24 @@
         <!-- navigation Start -->
         <?php include ($includes.'navigation.php'); ?>
         <!-- navigation End -->
-    </header>
-    <!-- Header ---->
-    <section class="lob-icons white">
-        <div class="container">
-            <ul class="icons">
-                <li><span class="flaticon-technology-2"></span><h3>Responsive</h3></li>
-                <li><span><span class="flaticon-material"></span><h3>Networking</h3></li>
-                <li><span class="flaticon-technology"></span><h3>Support</h3></li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="product-name padding" ng-controller="aboutCtrl">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6" >
-                    <div class="name-box">
+        <div class="p-overlay"></div>
+        <div class="container white">
+            <div class="row" style="margin:150px auto 0;">
+                <div class="col-sm-5" >
+                    <div class="name-box" style="padding:50px 0;">
                         <h2><?php echo $json['lobProduct'][$id]['title'];  ?></h2>
-                        <p>
+                        <p >
                           <?php echo $json['lobProduct'][$id]['description'];  ?>
                         </p>
                         <button type="button" class="btn btn-primary">Ask for trial</button>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="name-box">
-                        <img class="img-responsive" src="<?php echo $img.'Computer/'.$json['lobProduct'][$id]['mockup']; ?>">
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
+    </header>
+    <!-- Header ---->
 
-    <section class="green-l padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="l-box">
-                        <p class="white">
-                        <?php echo $json['lobProduct'][$id]['projectsdetails'][0]['description_details'];  ?>
-
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="l-box">
-
-                        <img class="img-responsive" src="<?php echo $img.'Computer/'.$json['lobProduct'][$id]['projectsdetails'][0]['mockup_details']; ?>">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="product-detail padding">
+    <section class="product-detail padding products">
         <div class="container">
             <div class="row">
                 <div class="col-md-6" data-ng-repeat="detail in Product">

@@ -73,17 +73,17 @@ ul {
 }
 
 #lineOfBusniness.header {
-    height: 600px;
     background: url('../img/Head1.jpg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
+    position: relative;
 }
 #product.header {
-    height: 600px;
-    background: url('../img/Head2.jpg');
+    position: relative;
+    background: url('../img/overlay.png'), url('../img/Head2.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-attachment: fixed;
 }
 /*
@@ -93,6 +93,12 @@ ul {
 .header-cont {
     overflow: hidden;
     padding: 55% 0;
+}
+
+.footer-box ul.social {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .header-cont h1 {
@@ -387,3 +393,8 @@ section.aboutme img {
     background: #EFEEEE;
 }
 
+.products {
+    background: url('../img/overlay.png'), url('../img/stars.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}

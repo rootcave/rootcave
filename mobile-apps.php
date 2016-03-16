@@ -9,9 +9,9 @@
     <!-- navigation Start -->
     <?php include($includes.'navigation.php'); ?>
     <!-- navigation End -->
-
+    <div class="p-overlay"></div>
     <div class="container padding">
-        <div class="row">
+        <div class="row" style="margin:150px auto 0">
             <div class="col-sm-6">
                 <h2>Mopile App</h2>
                 <p>
@@ -25,28 +25,8 @@
 </header>
 <!-- Header ---->
 
-<section class="three-mob">
-    <div class="container">
-        <div class="row">
-            <img class="img-responsive" ng-src="<?php echo $img; ?>Mob.jpg">
-        </div>
-    </div>
-</section>
-
-<section class="lob-icons white">
-    <div class="container">
-        <div class="row">
-            <ul class="icons-mop">
-                <li><span class="flaticon-technology-2"></span></li>
-                <li><span><span class="flaticon-material"></span></li>
-                <li><span class="flaticon-technology"></span></li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section class="mopile-appl padding">
-    <div class="container">
+<section class="mopile-appl padding products">
+    <div class="container white">
         <div class="row">
             <div class="col-sm-6" data-ng-repeat="items in mobileProduct">
                 <div class="app-mop">
