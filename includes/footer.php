@@ -4,35 +4,6 @@
                 <div class="col-sm-4">
                     <div class="footer-box white">
                         <img class="img-responsive" src="<?php echo $img; ?>Logo_white.png">
-                        <p>
-                        Lorem ipsum dolor sit amet, vitae perfecto philosophia nam ea, no justo elitr forensibus duo, tacimates adolescens et cum. Vero idque homero has ea, at aliquid accumsan pri. Stet scripserit id eos. Ea ornatus inermis pertinacia est, mel ut idque pericula theophrastus, ut mea malorum indoctum. Ex accusam percipitur duo, discere signiferumque nam ex, aperiri pericula ei pri.
-                        </p>
-
-                        <ul class="help">
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">term & condtion</a></li>
-                            <li><a href="#">privacy</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="footer-box white">
-                        <h3 class="upper">our Studios</h3>
-                        <ul class="details">
-                            <li><i class="fa fa-map-marker"></i>123 Lorem Ipsum Road, Ipsum Region Lorem City, New Zealand</li>
-                            <li><i class="fa fa-phone"></i>+(20)123 4567 890</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="footer-box white">
-                        <h3 class="upper">Stay in touch</h3>
-                        <form action="" method="post">
-                            <input class="form-control" type="email" name="email" placeholder="stay in touch..." required>
-                        </form>
                         <ul class="social">
                             <li><a href="https://www.facebook.com/rootcave"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://twitter.com/rootcave_team"><i class="fa fa-twitter"></i></a></li>
@@ -45,6 +16,18 @@
                            <br>
                             <p>Copyright @ 2015 - RootCave</p>
                         </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4 hidden-xs"></div>
+                <div class="col-sm-4">
+                    <div class="footer-box white">
+                        <h3 class="upper">our Studios</h3>
+                        <ul class="details">
+                            <li><i class="fa fa-map-marker"></i>123 Lorem Ipsum Road, Ipsum Region Lorem City, New Zealand</li>
+                            <li><i class="fa fa-phone"></i>+(20)123 4567 890</li>
+                            <li><i class="fa fa-share"></i>info@rootcave.com</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -60,6 +43,7 @@
     <script src="<?php echo $js; ?>angular-route.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo $js; ?>bootstrap.min.js"></script>
+    <script src="<?php echo $js; ?>typeit.min.js"></script>
     <!-- smoth scroll -->
     <script src="<?php echo $js; ?>SmoothScroll.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -114,6 +98,21 @@
                 });
             }
         );
+
+        /*--
+            auto typing plugin
+        --*/
+        $('.typing').typeIt({
+            strings: [
+                "Creative Is My Fashion",
+                "I Love Pizaa",
+                "I'm Crazy Coder"
+            ],
+            speed: 150,
+            breakLines: false,
+            loop: true,
+            cursor: false
+        });
     </script>
 
     <!-- JavaScript Files -->

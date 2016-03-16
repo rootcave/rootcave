@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img alt="Brand" src="<?php echo $img;  ?>Logo_white.png">
+                <img alt="Brand" src="<?php echo $img;  ?>Logo.png">
             </a>
         </div>
 
@@ -30,7 +30,7 @@
 
                 <li><a href="#customers">customers</a></li>
                 <li><a href="contact.php">contact us</a></li>
-                <li class="hidden-md hidden-sm hidden-xs" style="font-size: 35px;color:#FFF;margin-top: 15px;">|</li>
+                <li class="hidden-md hidden-sm hidden-xs" style="font-size: 35px;color:#696969;margin-top: 15px;">|</li>
                 <li><a href="demo.php" class="btn btn-primary">Demo</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
