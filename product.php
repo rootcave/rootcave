@@ -9,6 +9,8 @@
 
 
     $id=$_GET['id'];
+
+
     ?>
 
     <!-- Header Start ---->
@@ -36,17 +38,24 @@
     <section class="product-detail padding products">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" data-ng-repeat="detail in Product">
+                <div class="col-md-6" data-ng-repeat="detail in lobProduct[<?php  echo $id ?>].projectsdetails">
                     <div class="prdct-d">
-                        <img class="img-responsive" src="<?php echo $img; ?>Computer/{{detail.mockup}}">
+                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{detail.mockup_details}}">
                         <p>
-                            {{detial.description}}
+                            {{detail.description_details}}
+
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+<?php
+/* 
+echo $json['lobProduct'][0]['id'];
+echo $json['lobProduct'][$id]['title'];
+echo $json['lobProduct'][$id]['projectsdetails'][0]['mockup_details'];
+*/
+ ?>
     <!-- footer start -->
     <?php include ($includes.'/footer.php'); ?>
