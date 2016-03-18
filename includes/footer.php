@@ -104,9 +104,9 @@
         --*/
         $('.typing').typeIt({
             strings: [
-                "Creative Is My Fashion",
-                "I Love Pizaa",
-                "I'm Crazy Coder"
+                "Tailored to suit your business ",
+                "Cloud based Software for your business",
+                "Real time Analytics for data driven business decisions"
             ],
             speed: 150,
             breakLines: false,

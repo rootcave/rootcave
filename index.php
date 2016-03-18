@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-sm-5">
                 <div class="header-cont">
-                    <h1 class="typing"></h1>
+                    <h2 class="typing" style="color: white;"></h2>
                     <a class="btn btn-primary" href="demo.php">Get Started</a>
                 </div>
             </div>
