@@ -4,7 +4,7 @@
         $from = $_POST['email']; // this is the sender's Email address
         $name = $_POST['name'];
         $tel = $_POST['tel'];
-        $subject = "Request a Demo" . $_POST['product'];
+        $subject = "Request a Demo of " . $_POST['product'] ." from ".$_POST['company'];
         $subject2 = "Copy of your form submission";
         $message = $subject . "<br>" . $name . " " . $tel . " wrote the following:" . "\n\n" . $_POST['message'];
         $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
@@ -13,7 +13,7 @@
         $headers2 = "From:" . $to;
         mail($to,$subject,$message,$headers);
         mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-        echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+        echo "Thank you " . $name . " for your interest in Root Cave Products, we will contact you shortly.";
         // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
@@ -38,7 +38,7 @@
                     <form class="form" action="" method="post">
                         <h2>Request a Demo</h2>
                         <input type="text" class="form-control" placeholder="Name.." name="name" required>
-                        <input type="text" class="form-control" placeholder="Company.." name="name" required>
+                        <input type="text" class="form-control" placeholder="Company.." name="company" required>
                         <input type="tel" class="form-control" placeholder="Phone.." name="tel" required>
                         <input type="email" class="form-control" placeholder="Email.." name="email" required>
                         <select name="product">
