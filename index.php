@@ -108,12 +108,13 @@
 
 <section class='clients padding text-center' id="customers">
     <div class="container">
-        <div class="row">
+        <div class="row" >
        <!-- <h1 class="text-center">Customers</h1> -->
         </div>
-        <div class="row">
-            <div class="col-sm-3" data-ng-repeat="client in clients">
-                <img class="img-responsive" ng-src="<?php echo $img_clients ?>/{{client.clinetLogo}} " style="height: 100px; margin-top: 10px">
+        <div class="row" ng-repeat="client in clients track by $index" ng-if="$index % 4 == 0">
+            <div class="col-sm-3"   ng-repeat="i in [$index,$index +1,$index + 2 , $index + 3]" 
+               ng-if="clients[i]">
+                <img class="img-responsive" ng-src="<?php echo $img_clients ?>/{{clients[i].clientLogo}} " >
             </div>
 
 
