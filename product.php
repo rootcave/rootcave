@@ -9,6 +9,8 @@
 
 
     $id=$_GET['id'];
+
+
     ?>
 
     <!-- Header Start ---->
@@ -35,12 +37,14 @@
 
     <section class="product-detail padding products">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6" data-ng-repeat="detail in Product">
+            <div class="row" ng-repeat="items in lobProduct[<?php  echo $id ?>].projectsdetails track by $index" ng-if="$index % 2 == 0">
+                <div class="col-md-6"   ng-repeat="i in [$index, $index + 1]"
+               ng-if="lobProduct[<?php  echo $id ?>].projectsdetails[i]" >
                     <div class="prdct-d">
-                        <img class="img-responsive" src="<?php echo $img; ?>Computer/{{detail.mockup}}">
+                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{items.mockup_details}}">
                         <p>
-                            {{detial.description}}
+                            {{items.description_details}}
+
                         </p>
                     </div>
                 </div>

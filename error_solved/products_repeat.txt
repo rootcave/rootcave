@@ -1,0 +1,6 @@
+Product Repeat Solution:
+
+I accessed the lobProduct instead of the Product in the controller
+because we have to provide which lobProduct you need to access the projectdetails of (as i told you)
+and i took the id from the url ;)
+items in lobProduct[<?php  echo $id ?>].projectsdetails
