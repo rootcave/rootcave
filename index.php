@@ -109,11 +109,11 @@
 <section class='clients padding text-center' id="customers">
     <div class="container">
         <div class="row">
-<!--            <h2>Customers</h2>-->
+       <!-- <h1 class="text-center">Customers</h1> -->
         </div>
         <div class="row">
             <div class="col-sm-3" data-ng-repeat="client in clients">
-                <img class="img-responsive" ng-src="assets/img/clients/{{client.clinetLogo}}">
+                <img class="img-responsive" ng-src="<?php echo $img_clients ?>/{{client.clinetLogo}} " style="height: 100px; margin-top: 10px">
             </div>
 
 

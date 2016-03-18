@@ -38,13 +38,16 @@
                     <form class="form" action="" method="post">
                         <h2>Request a Demo</h2>
                         <input type="text" class="form-control" placeholder="Name.." name="name" required>
+                        <input type="text" class="form-control" placeholder="Company.." name="name" required>
                         <input type="tel" class="form-control" placeholder="Phone.." name="tel" required>
                         <input type="email" class="form-control" placeholder="Email.." name="email" required>
                         <select name="product">
-                          <option value="volvo">Volvo</option>
-                          <option value="saab">Saab</option>
-                          <option value="mercedes">Mercedes</option>
-                          <option value="audi">Audi</option>
+                          <option value="hr">HR</option>
+                          <option value="finance">Finance</option>
+                          <option value="crm">CRM</option>
+                          <option value="supplyChain">Supply Chain</option>
+                          <option value="medical">Medical</option>
+                          <option value="school">School</option>
                         </select>
                         <textarea class="textarea" placeholder="Message" name="message"></textarea>
                         <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">

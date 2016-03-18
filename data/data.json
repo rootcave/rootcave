@@ -64,35 +64,39 @@
 
     "clients": [
         {
-            "clinetLogo": "1.jpg"
+            "clinetLogo": "01.png"
         },
 
         {
-            "clinetLogo": "2.jpg"
+            "clinetLogo": "02.gif"
         },
 
         {
-            "clinetLogo": "3.jpg"
+            "clinetLogo": "03.gif"
         },
 
         {
-            "clinetLogo": "4.jpg"
+            "clinetLogo": "04.gif"
         },
 
         {
-            "clinetLogo": "5.jpg"
+            "clinetLogo": "05.gif"
         },
 
         {
-            "clinetLogo": "6.jpg"
+            "clinetLogo": "06.gif"
         },
 
         {
-            "clinetLogo": "7.jpg"
+            "clinetLogo": "07.gif"
         },
 
         {
-            "clinetLogo": "8.jpg"
+            "clinetLogo": "08.png"
+        },
+
+        {
+            "clinetLogo": "09.png"
         }
 
     ],
