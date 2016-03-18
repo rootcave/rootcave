@@ -37,12 +37,13 @@
 
     <section class="product-detail padding products">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6" data-ng-repeat="detail in lobProduct[<?php  echo $id ?>].projectsdetails">
+            <div class="row" ng-repeat="items in lobProduct[<?php  echo $id ?>].projectsdetails track by $index" ng-if="$index % 2 == 0">
+                <div class="col-md-6"   ng-repeat="i in [$index, $index + 1]"
+               ng-if="lobProduct[<?php  echo $id ?>].projectsdetails[i]" >
                     <div class="prdct-d">
-                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{detail.mockup_details}}">
+                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{items.mockup_details}}">
                         <p>
-                            {{detail.description_details}}
+                            {{items.description_details}}
 
                         </p>
                     </div>
@@ -50,12 +51,6 @@
             </div>
         </div>
     </section>
-<?php
-/* 
-echo $json['lobProduct'][0]['id'];
-echo $json['lobProduct'][$id]['title'];
-echo $json['lobProduct'][$id]['projectsdetails'][0]['mockup_details'];
-*/
- ?>
+
     <!-- footer start -->
     <?php include ($includes.'/footer.php'); ?>
