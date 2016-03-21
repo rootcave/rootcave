@@ -64,39 +64,53 @@
 
     "clients": [
         {
-            "clinetLogo": "01.png"
+            "id":0,
+            "clientLogo": "01.png"
         },
 
         {
-            "clinetLogo": "02.gif"
+            "id":1,
+            "clientLogo": "02.gif"
         },
 
         {
-            "clinetLogo": "03.gif"
+            "id":2,
+            "clientLogo": "03.gif"
         },
 
         {
-            "clinetLogo": "04.gif"
+            "id":3,
+            "clientLogo": "04.gif"
         },
 
         {
-            "clinetLogo": "05.gif"
+            "id":4,
+            "clientLogo": "05.gif"
         },
 
         {
-            "clinetLogo": "06.gif"
+            "id":5,
+            "clientLogo": "06.gif"
         },
 
         {
-            "clinetLogo": "07.gif"
+            "id":6,
+            "clientLogo": "07.gif"
         },
 
         {
-            "clinetLogo": "08.png"
+            "id":7,
+            "clientLogo": "08.png"
         },
 
         {
-            "clinetLogo": "09.png"
+            "id":8,
+            "clientLogo": "09.png"
+        },
+
+        {
+            "id":0,
+            "clientLogo": "10.png"
         }
 
     ],

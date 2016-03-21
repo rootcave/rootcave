@@ -22,11 +22,12 @@
                 <div class="col-sm-4 hidden-xs"></div>
                 <div class="col-sm-4">
                     <div class="footer-box white">
-                        <h3 class="upper">our Studios</h3>
+                        <h3 class="upper" style="
+    margin-left: 45px;" >Reach Us </h3>
                         <ul class="details">
-                            <li><i class="fa fa-map-marker"></i>123 Lorem Ipsum Road, Ipsum Region Lorem City, New Zealand</li>
-                            <li><i class="fa fa-phone"></i>+(20)123 4567 890</li>
-                            <li><i class="fa fa-share"></i>info@rootcave.com</li>
+                            <li><i class="fa fa-map-marker"></i>6 Gamal Salem St., from Mosadak St., Dokki, Egypt.</li>
+                            <li><i class="fa fa-phone"></i>+(20)100 5399 170</li>
+                            <li><i class="fa fa-envelope"></i>info@rootcave.com</li>
                         </ul>
                     </div>
                 </div>
@@ -104,9 +105,9 @@
         --*/
         $('.typing').typeIt({
             strings: [
-                "Creative Is My Fashion",
-                "I Love Pizaa",
-                "I'm Crazy Coder"
+                "Tailored to suit your business ",
+                "Cloud based Software for your business",
+                "Real time Analytics for data driven business decisions"
             ],
             speed: 150,
             breakLines: false,
