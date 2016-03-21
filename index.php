@@ -12,21 +12,18 @@
     <!-- navigation End -->
     <div class="p-overlay"></div>
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin:250px auto 150px">
             <div class="col-sm-5">
                 <div class="header-cont">
-<<<<<<< HEAD
+
                     <h1 class="typing"></h1>
                     <a class="btn btn-primary" href="#start">Get Started</a>
-=======
-                    <h2 class="typing" style="color: white;"></h2>
-                    <a class="btn btn-primary" href="demo.php">Get Started</a>
->>>>>>> 0f9bb6a03cbd133918b85778ebd81b3bb8a5a08f
+
                 </div>
             </div>
 
             <div class="col-sm-7">
-                <div style="padding:25% 0">
+                <div>
                     <img class="img-responsive" src="assets/img/PcColl.png">
                 </div>
             </div>
@@ -53,10 +50,10 @@
                ng-if="about[i]"
               >
                 <div class="about-box">
-                    <div class="col-xs-3">
+                    <div class="col-sm-3">
                         <i class="{{about[i].icon}}"></i>
                     </div>
-                    <div class="col-xs-9">
+                    <div class="col-sm-9">
                         <h3>
                             {{about[i].title}}
                         </h3>
@@ -117,7 +114,7 @@
        <!-- <h1 class="text-center">Customers</h1> -->
         </div>
         <div class="row" ng-repeat="client in clients track by $index" ng-if="$index % 4 == 0">
-            <div class="col-sm-3"   ng-repeat="i in [$index,$index +1,$index + 2 , $index + 3]" 
+            <div class="col-sm-3"   ng-repeat="i in [$index,$index +1,$index + 2 , $index + 3]"
                ng-if="clients[i]">
                 <img class="img-responsive" ng-src="<?php echo $img_clients ?>/{{clients[i].clientLogo}} " >
             </div>

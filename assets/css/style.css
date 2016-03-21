@@ -39,7 +39,6 @@ ul {
 }
 
 #header.header {
-    height: 100%;
     background: url('../img/overlay.png'), url('../img/requestN.jpg');
     background-size: cover;
     background-position: bottom;
@@ -92,7 +91,6 @@ ul {
 
 .header-cont {
     overflow: hidden;
-    padding: 55% 0;
 }
 
 .footer-box ul.social {
@@ -102,8 +100,8 @@ ul {
 }
 
 .header-cont h1 {
-    font-size: 60px;
-    height: 150px;
+    font-size: 50px;
+    height: 250px;
     color: #eee;
 }
 
@@ -330,6 +328,7 @@ ul.icons li {
 .about-box .fa {
     color: #008BD0;
     font-size: 50px;
+    text-align: center
 }
 
 .about-box .h2 {

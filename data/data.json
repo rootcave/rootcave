@@ -255,28 +255,80 @@
             "id": "1",
             "title": "Title Here",
             "mockup": "thumb-slider-portrait-3-opt-501x900.png",
-            "description": "1111Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+            "description": "1111Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "appDetails": [
+                {   
+                    "mainMockup": "sample.jpg",
+                    "mockup1": "sample.jpg", 
+                    "mockup2": "sample.jpg", 
+                    "mockup3": "sample.jpg",
+                    "mockup4": "sample.jpg",
+                    "mockup5": "sample.jpg",
+                    "description": "",
+                    "specMockup": "",
+                    "specDesc": ""
+                }
+            ] 
         },
 
         {
             "id": "1",
             "title": "Title Here",
             "mockup": "thumb-slider-portrait-3-opt-501x900.png",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "appDetails": [
+                {   
+                    "mainMockup": "sample.jpg",
+                    "mockup1": "sample.jpg", 
+                    "mockup2": "sample.jpg", 
+                    "mockup3": "sample.jpg",
+                    "mockup4": "sample.jpg",
+                    "mockup5": "sample.jpg",
+                    "description": "",
+                    "specMockup": "",
+                    "specDesc": ""
+                }
+            ] 
         },
 
         {
             "id": "1",
             "title": "Title Here",
             "mockup": "thumb-slider-portrait-3-opt-501x900.png",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "appDetails": [
+                {   
+                    "mainMockup": "sample.jpg",
+                    "mockup1": "sample.jpg", 
+                    "mockup2": "sample.jpg", 
+                    "mockup3": "sample.jpg",
+                    "mockup4": "sample.jpg",
+                    "mockup5": "sample.jpg",
+                    "description": "",
+                    "specMockup": "",
+                    "specDesc": ""
+                }
+            ] 
         },
 
         {
             "id": "1",
             "title": "Title Here",
             "mockup": "thumb-slider-portrait-3-opt-501x900.png",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "appDetails": [
+                {   
+                    "mainMockup": "sample.jpg",
+                    "mockup1": "sample.jpg", 
+                    "mockup2": "sample.jpg", 
+                    "mockup3": "sample.jpg",
+                    "mockup4": "sample.jpg",
+                    "mockup5": "sample.jpg",
+                    "description": "",
+                    "specMockup": "",
+                    "specDesc": ""
+                }
+            ] 
         }
     ]
 

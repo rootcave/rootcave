@@ -11,6 +11,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+    
+    .about-box {
+        text-align: center;
+    }
+    
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         background: rgba(78, 145, 192, 0.31);
         margin-top: 17px;
@@ -53,7 +58,7 @@
 
 @media only screen and (min-width : 992px) and (max-width: 1200px) {
     .nav>li {
-        margin: -15px auto;
+        margin: -13px auto;
     }
 
     .navbar-right {
