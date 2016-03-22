@@ -16,7 +16,7 @@
             <div class="col-sm-5">
                 <div class="header-cont">
 
-                    <h1 class="typing"></h1>
+                    <h2 class="typing"></h2>
                     <a class="btn btn-primary" href="#start">Get Started</a>
 
                 </div>
