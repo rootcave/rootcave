@@ -83,7 +83,7 @@
 
             <div class="col-sm-6">
                 <div class="l-box">
-                    <img class="img-responsive" ng-src="<?php echo $img; ?>PcColl.png">
+                    <img class="img-responsive" ng-src="<?php echo $img; ?>mockups/responsive.png">
                 </div>
             </div>
 
