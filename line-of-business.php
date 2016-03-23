@@ -24,7 +24,7 @@ include "config.php";
 
                 <div class="col-sm-7">
                     <div class="lob-box">
-                        <img class="img-responsive" src="<?php echo $img; ?>pc2.png">
+                        <img class="img-responsive" src="<?php echo $img; ?>products/lob/crm/head.png">
                     </div>
                 </div>
             </div>
