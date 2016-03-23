@@ -24,7 +24,7 @@
 
             <div class="col-sm-7">
                 <div>
-                    <img class="img-responsive" src="assets/img/PcColl.png">
+                    <img class="img-responsive" src="assets/img/mockups/responsive.png">
                 </div>
             </div>
         </div>
