@@ -117,7 +117,7 @@
 
     "lobProduct": [
         {
-            "mockup": "1 (1).png",
+            "mockup": "crm.png",
             "id": 0,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "CRM",
@@ -150,7 +150,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "hr.png",
             "id": 1,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "HR",
@@ -183,7 +183,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "finance.png",
             "id": 2,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "Financial",
@@ -216,7 +216,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "school.png",
             "id": 3,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "School",
@@ -249,7 +249,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "medical.png",
             "id": 4,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "Medical",
@@ -282,7 +282,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "ecommerce.png",
             "id": 5,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "Ecommerce",
@@ -315,7 +315,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "fitness.png",
             "id": 6,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "Fitness Center",
@@ -348,7 +348,7 @@
         },
 
         {
-            "mockup": "1 (1).png",
+            "mockup": "helpdesk.png",
             "id": 7,
             "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "title": "Helpdesk",

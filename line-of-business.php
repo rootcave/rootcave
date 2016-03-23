@@ -39,7 +39,7 @@ include "config.php";
                 <div class="col-sm-6" data-ng-repeat="product in lobProduct">
                     <div class="product">
                         <div class="col-sm-6">
-                            <img src="<?php echo $img; ?>Computer/{{product.mockup}}" class="img-responsive">
+                            <img src="<?php echo $img_lob_teaser; ?>{{product.mockup}}" class="img-responsive">
                         </div>
                         <div class="col-sm-6">
                             <h2>{{product.title}}</h2>
