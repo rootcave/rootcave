@@ -1,10 +1,10 @@
 <?php
     if(isset($_POST['submit'])){
-        $to = "sales@rootcave.com"; // this is your Email address
+        $to = "melkotoury@gmail.com"; // this is your Email address
         $from = $_POST['email']; // this is the sender's Email address
         $name = $_POST['name'];
         $tel = $_POST['tel'];
-        $subject = "Request a Demo of " . $_POST['product'] ." from ".$_POST['company'];
+        $subject = "Request a Demo of " . $_POST['product'] ." from ".$_POST['company']."from ".$_POST['country'];
         $subject2 = "Copy of your form submission";
         $message = $subject . "<br>" . $name . " " . $tel . " wrote the following:" . "\n\n" . $_POST['message'];
         $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
@@ -38,10 +38,30 @@
                     <form class="form" action="" method="post">
                         <h2>Request a Demo</h2>
                         <input type="text" class="form-control" placeholder="Name.." name="name" required>
-                        <input type="text" class="form-control" placeholder="Company.." name="company" required>
+                        <input type="text" class="form-control" placeholder="Country.." name="country" required>
+
+                        <!--Start Trial -->
+                        <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true" class="form-control">
+                            <input type="hidden" value="country">
+                            <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+                                <span class="bfh-selectbox-option input-medium" data-option=""></span>
+                                <b class="caret"></b>
+                            </a>
+                            <div class="bfh-selectbox-options" class="form-control">
+                                <input type="text" class="bfh-selectbox-filter">
+                                <div role="listbox">
+                                    <ul role="option">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End trial -->
+
+
+
                         <input type="tel" class="form-control" placeholder="Phone.." name="tel" required>
                         <input type="email" class="form-control" placeholder="Email.." name="email" required>
-                        <select name="product">
+                        <select name="product" class="form-control">
                           <option value="hr">HR</option>
                           <option value="finance">Finance</option>
                           <option value="crm">CRM</option>
@@ -49,7 +69,7 @@
                           <option value="medical">Medical</option>
                           <option value="school">School</option>
                         </select>
-                        <textarea class="textarea" placeholder="Message" name="message"></textarea>
+                        <textarea class="textarea " placeholder="Message" name="message"></textarea>
                         <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
                     </form>
                 </div>

@@ -47,8 +47,15 @@
     <script src="<?php echo $js; ?>typeit.min.js"></script>
     <!-- smoth scroll -->
     <script src="<?php echo $js; ?>SmoothScroll.js"></script>
+
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <!-- GOOGLE MAP -->
+
+    <script src="<?php echo $js; ?>bootstrap-formhelpers.min.js" ></script>
+
+    <script src="<?php echo $js; ?>bootstrap-formhelpers-countries.js" ></script>
+    <script src="<?php echo $js; ?>bootstrap-formhelpers-countries.en_US.js" ></script>
+<!-- COUNTRIES in Form-->
     <script type="text/javascript">
         // When the window has finished loading create our google map below
         google.maps.event.addDomListener(window, 'load', init);

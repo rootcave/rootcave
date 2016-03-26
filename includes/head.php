@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="<?php echo $css; ?>style.css">
         <link rel="stylesheet" href="<?php echo $css; ?>responsive.css">
         <!---- syles ---->
-
+        <link rel="stylesheet" href="<?php echo $css; ?>bootstrap-formhelpers.css">
+        <link rel="stylesheet" href="<?php echo $css; ?>bootstrap-formhelpers-countries.flags.css">
     </head>
     <body data-ng-controller="aboutCtrl">
