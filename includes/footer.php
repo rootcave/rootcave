@@ -56,6 +56,9 @@
     <script src="<?php echo $js; ?>bootstrap-formhelpers-countries.js" ></script>
     <script src="<?php echo $js; ?>bootstrap-formhelpers-countries.en_US.js" ></script>
 <!-- COUNTRIES in Form-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!-- --Captcha -->
     <script type="text/javascript">
         // When the window has finished loading create our google map below
         google.maps.event.addDomListener(window, 'load', init);

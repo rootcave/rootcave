@@ -42,7 +42,10 @@ include($includes.'head.php');
                         <input type="email" class="form-control" placeholder="Email.." name="email" required>
                         <input type="text" class="form-control" placeholder="Subject.." name="subject" required>
                         <textarea class="textarea" placeholder="Message" name="message"></textarea>
+                        <div class="g-recaptcha" data-sitekey="6LdTyxsTAAAAAOpOslBQiWIm4d7Za9xwhVqxrwPN"></div>
+
                         <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+
                     </form>
                 </div>
 

@@ -71,6 +71,8 @@
                         </select>
                         <textarea class="textarea " placeholder="Message" name="message"></textarea>
                         <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
+                        <div class="g-recaptcha" data-sitekey="6LdQyxsTAAAAAKga-aKjWAEEWYBF5hQNYyTkM2tk"></div>
+
                     </form>
                 </div>
 
