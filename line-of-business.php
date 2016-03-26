@@ -16,9 +16,9 @@ include "config.php";
                     <div class="lob-box">
                         <h2>line Of Busniness</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
+                            Root Cave LOB are set of critical web applications that are vital to running an enterprise. LOB applications are usually large programs that contain a number of integrated capabilities and tie into databases and database management systems. 
                         </p>
-                        <button type="button" class="btn btn-primary">Learn More</button>
+                        <a href="#products" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ include "config.php";
     </header>
     <!-- Header ---->
 
-    <section class="products padding white" data-ng-controller="aboutCtrl">
+    <section class="products padding white" data-ng-controller="aboutCtrl" id="products">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6" data-ng-repeat="product in lobProduct">

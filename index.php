@@ -74,8 +74,9 @@
                 <div class="l-box">
                     <h3 class="white">Web App</h3>
                     <p class="white">
-                        Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
-                        Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.
+                        Web design doesn’t have to be complicated, and we like to keep things simple. We design and develop user-friendly websites that reflect your brand and engage your visitors. Websites built beautifully inside and out, and that work on every device.
+                        <br>
+                        So if you want a web design that will work on phones, tablets and computers, that will engage your visitors and keep them coming back for more, then you’ve come to the right place.
                     </p>
                     <a class="btn btn-primary" href="line-of-business.php">Get Started</a>
                 </div>

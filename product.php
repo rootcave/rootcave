@@ -35,15 +35,15 @@
     </header>
     <!-- Header ---->
 
-    <section class="product-detail padding products">
+    <section class="product-detail padding products white">
         <div class="container">
             <div class="row" ng-repeat="items in lobProduct[<?php  echo $id ?>].projectsdetails track by $index" ng-if="$index % 2 == 0">
                 <div class="col-md-6"   ng-repeat="i in [$index, $index + 1]"
                ng-if="lobProduct[<?php  echo $id ?>].projectsdetails[i]" >
                     <div class="prdct-d">
-                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{items.mockup_details}}">
+                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{lobProduct[<?php  echo $id; ?>].projectsdetails[i].mockup_details}}">
                         <p>
-                            {{items.description_details}}
+                            {{lobProduct[<?php  echo $id; ?>].projectsdetails[i].description_details}}
 
                         </p>
                     </div>

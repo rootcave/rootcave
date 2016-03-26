@@ -224,25 +224,25 @@
             "projectsdetails": [
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Connect with students, teachers, and parents at the right time and manage a wide variety of data through effective use of custom dashboards, workflows, reports, forms and fields. Root Cave school software is multilingual supporting most widely spoken languages in the world such as English, German, Spanish, Arabic, etc."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Built for public & private school management system, Root Cave helps to create a collaborative environment for students, faculty and administration and improve outcomes of schools."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Our online school management system transforms learning in exciting new ways to empower teachers, engage students, streamline processes and increase adoption with digital tools.."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Root Cave school administration software enhances interactions between students, teachers, staffs and parents to deliver customized and personalized classroom experience via mobile devices and desktops."
 
                 }
             ]
@@ -384,29 +384,83 @@
 
     "mobileProduct": [
         {
-            "id": "1",
-            "title": "Title Here",
+            "id": "0",
+            "title": "Catalogue App",
+            "slug":"catalogue",
             "mockup": "thumb-slider-portrait-3-opt-501x900.png",
+            "tdescription":"Lorem",
             "description": "1111Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "appDetails": [
                 {   
                     "mainMockup": "sample.jpg",
-                    "mockup1": "sample.jpg", 
-                    "mockup2": "sample.jpg", 
-                    "mockup3": "sample.jpg",
-                    "mockup4": "sample.jpg",
-                    "mockup5": "sample.jpg",
+                    "mockup1": "01.jpg", 
+                    "mockup2": "02.jpg", 
+                    "mockup3": "03.jpg",
+                    "mockup4": "04.jpg",
+                    "mockup5": "05.jpg",
                     "description": "",
                     "specMockup": "",
-                    "specDesc": ""
+                    "specDesc": "",
+                    "specMockup2":"",
+                    "specDesc2":""
                 }
             ] 
         },
 
         {
             "id": "1",
-            "title": "Title Here",
+            "title": "Business Directory",
+            "slug":"business_directory",
             "mockup": "thumb-slider-portrait-3-opt-501x900.png",
+            "tdescription":"Lorem",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "appDetails": [
+                {   
+                    "mainMockup": "sample.jpg",
+                    "mockup1": "01.jpg", 
+                    "mockup2": "02.jpg", 
+                    "mockup3": "03.jpg",
+                    "mockup4": "04.jpg",
+                    "mockup5": "05.jpg",
+                    "description": "",
+                    "specMockup": "",
+                    "specDesc": "",
+                    "specMockup2":"",
+                    "specDesc2":""
+                }
+            ] 
+        },
+
+        {
+            "id": "2",
+            "title": "Business Directory",
+            "slug":"",
+            "mockup": "thumb-slider-portrait-3-opt-501x900.png",
+            "tdescription":"Lorem",
+            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "appDetails": [
+                {   
+                    "mainMockup": "sample.jpg",
+                    "mockup1": "01.jpg", 
+                    "mockup2": "02.jpg", 
+                    "mockup3": "03.jpg",
+                    "mockup4": "04.jpg",
+                    "mockup5": "05.jpg",
+                    "description": "",
+                    "specMockup": "",
+                    "specDesc": "",
+                    "specMockup2":"",
+                    "specDesc2":""
+                }
+            ] 
+        },
+
+        {
+            "id": "3",
+            "title": "Title Here",
+            "slug":"",
+            "mockup": "thumb-slider-portrait-3-opt-501x900.png",
+            "tdescription":"Lorem",
             "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "appDetails": [
                 {   
@@ -418,47 +472,9 @@
                     "mockup5": "sample.jpg",
                     "description": "",
                     "specMockup": "",
-                    "specDesc": ""
-                }
-            ] 
-        },
-
-        {
-            "id": "1",
-            "title": "Title Here",
-            "mockup": "thumb-slider-portrait-3-opt-501x900.png",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
-            "appDetails": [
-                {   
-                    "mainMockup": "sample.jpg",
-                    "mockup1": "sample.jpg", 
-                    "mockup2": "sample.jpg", 
-                    "mockup3": "sample.jpg",
-                    "mockup4": "sample.jpg",
-                    "mockup5": "sample.jpg",
-                    "description": "",
-                    "specMockup": "",
-                    "specDesc": ""
-                }
-            ] 
-        },
-
-        {
-            "id": "1",
-            "title": "Title Here",
-            "mockup": "thumb-slider-portrait-3-opt-501x900.png",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
-            "appDetails": [
-                {   
-                    "mainMockup": "sample.jpg",
-                    "mockup1": "sample.jpg", 
-                    "mockup2": "sample.jpg", 
-                    "mockup3": "sample.jpg",
-                    "mockup4": "sample.jpg",
-                    "mockup5": "sample.jpg",
-                    "description": "",
-                    "specMockup": "",
-                    "specDesc": ""
+                    "specDesc": "",
+                    "specMockup2":"",
+                    "specDesc2":""
                 }
             ] 
         }

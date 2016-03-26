@@ -70,7 +70,7 @@ include "config.php";
 
                 <div class="col-sm-6">
                     <div class="spec-box">
-                        <img class="img-responsive" src="assets/img/Mob3.png">
+                        <img class="img-responsive" src="assets/img/products/mobile/01-catalogue/01-mockup.png">
                     </div>
                 </div>
             </div>
