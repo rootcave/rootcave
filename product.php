@@ -41,7 +41,7 @@
                 <div class="col-md-6"   ng-repeat="i in [$index, $index + 1]"
                ng-if="lobProduct[<?php  echo $id ?>].projectsdetails[i]" >
                     <div class="prdct-d">
-                        <img class="img-responsive" src="<?php echo $img; ?>mockups/{{lobProduct[<?php  echo $id; ?>].projectsdetails[i].mockup_details}}">
+                        <img class="img-responsive" src="<?php echo $img_lob; ?>{{lobProduct[<?php  echo $id; ?>].slug}}/{{lobProduct[<?php  echo $id; ?>].projectsdetails[i].mockup_details}}">
                         <p>
                             {{lobProduct[<?php  echo $id; ?>].projectsdetails[i].description_details}}
 

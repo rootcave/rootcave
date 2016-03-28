@@ -38,7 +38,7 @@
                     <form class="form" action="" method="post">
                         <h2>Request a Demo</h2>
                         <input type="text" class="form-control" placeholder="Name.." name="name" required>
-                        <input type="text" class="form-control" placeholder="Country.." name="country" required>
+                        <input type="text" class="form-control" placeholder="Company.." name="company" required>
 
                         <!--Start Trial -->
                         <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true" class="form-control">
@@ -68,6 +68,9 @@
                           <option value="supplyChain">Supply Chain</option>
                           <option value="medical">Medical</option>
                           <option value="school">School</option>
+                        <option value="helpdesk">Helpdesk</option>
+                          <option value="fitness">Fitness</option>
+
                         </select>
                         <textarea class="textarea " placeholder="Message" name="message"></textarea>
                         <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">

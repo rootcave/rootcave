@@ -125,25 +125,25 @@
             "description":"Root Cave offers a broad suite of CRM applications for small, mid-market and enterprise organizations, with a focus on sales and support. Our Solution has capabilities that include, sales management (its heritage), marketing automation, partner relationship management and customer service. These help organizations manage customer accounts, track sales leads, conduct and monitor marketing campaigns and provide service post sale. ",
             "projectsdetails": [
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "01.png",
                     "description_details": "Connect with your Customers, Be where your customers are. Engage and communicate with them via Email, Phone, Chat and Social from within your CRM account."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "02.png",
                     "description_details": "Automate. Be Productive,  Automate your day-to-day business activities so that you can focus on selling and not on maintaining data.."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "03.png",
                     "description_details": "Track your Sales Activities, Gain complete visibility of your sales cycle. Align your sales efforts with business strategies and objectives."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "04.png",
                     "description_details": "Extend your CRM, Integrate your CRM account with other applications to create a fully scalable, customized business solution."
 
                 }
@@ -160,25 +160,25 @@
             "projectsdetails": [
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "01.png",
                     "description_details": "Time and attendance management, Optimize the deployment and utilization of each employee's working time."
 
                 },
 
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "02.png",
                     "description_details": "Core human resources and payroll, Deliver flexible and efficient global HR processes."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "03.png",
                     "description_details": "Talent management Attract, develop, and retain talent to achieve business results and prepare for the future."
 
                 },
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "04.png",
                     "description_details": "Human capital analytics, Increase the success of workforce strategies with reliable, real-time, relevant insight."
 
                 }
@@ -195,25 +195,25 @@
             "description": "Businesses ultimately succeed or fail based on their ability to create and manage a profitable business. The combination of a competitive, global environment and mandatory regulatory compliance means that successfully managing your finances is one of the biggest challenges and opportunities you can face.",
             "projectsdetails": [
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "01.png",
                     "description_details": "Improve customer satisfaction. Accelerate cash flow. Reduce the risk of errors in financial results. With Root Cave Revenue Management, you can manage the entire contract-to-cash lifecycle for more efficient, accurate processes and accounting results."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "02.png",
                     "description_details": "Root Cave Management Reporting goes beyond the basics of financial reporting. It provides the information you need to more effectively support the business—without any additional investment for external systems."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "03.png",
                     "description_details": "Rooot Cave Expenses allows workers to easily enter their expenses. The results are lower costs, more accurate accounting, and more timely reimbursements."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "04.png",
                     "description_details": "Root Cave Financial Management goes beyond the basics of accounting and focuses on speed, agility, cost, and insights. These unified applications include a full range of finance and accounting capabilities."
 
                 }
@@ -224,31 +224,31 @@
             "mockup": "school.png",
             "id": 3,
             "slug":"school",
-            "tDesc": "Root Cave School is a user-friendly, highly scalable and customizable cloud-based school management software to meet the unique needs of schools...",
+            "tDesc": "Root Cave SCHOOL is a revamped online management software for total school, college or any educational institutions management...",
             "title": "School",
-            "description": "Root Cave School is a user-friendly, highly scalable and customizable cloud-based school management software to meet the unique needs of schools , universities and learning centers. Give mobile access to student community and provide instant visibility to attendance, grades, fee payments and reports.",
+            "description": "Root Cave SCHOOL is a revamped online management software for total school, college or any educational institutions management. You can keep student’s records from admission to transfer, exams, marks, events, complains and scholarships, teachers management, payroll, staffs and also libary management",
             "projectsdetails": [
                 {
-                    "mockup_details": "responsive.png",
-                    "description_details": "Connect with students, teachers, and parents at the right time and manage a wide variety of data through effective use of custom dashboards, workflows, reports, forms and fields. Root Cave school software is multilingual supporting most widely spoken languages in the world such as English, German, Spanish, Arabic, etc."
+                    "mockup_details": "01.png",
+                    "description_details": "Class Room & Time Table Management: have control over the classes and time table for each class."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
-                    "description_details": "Built for public & private school management system, public and private Universities and training centers, Root Cave School Software helps to create a collaborative environment for students, faculty and administration and improve outcomes of schools."
+                    "mockup_details": "02.png",
+                    "description_details": "Teachers & Staffs Managment: have a complete control over teachers and staff attendance , contact info and the classes they teach."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
-                    "description_details": "Our online school management system transforms learning in exciting new ways to empower teachers, engage students, streamline processes and increase adoption with digital tools.."
+                    "mockup_details": "03.png",
+                    "description_details": "Fees & Schoolship Management for all students in the school database."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
-                    "description_details": "Root Cave school administration software enhances interactions between students, teachers, staffs and parents to deliver customized and personalized classroom experience via mobile devices and desktops."
+                    "mockup_details": "04.png",
+                    "description_details": "Root Cave School comes with some of the most important reports any learning institution could need."
 
                 }
             ]
@@ -263,25 +263,25 @@
             "description": "Root Cave Medical is an advanced, powerful, felxible complete solution for Hospitals, clinics, Diagnostic centers and Medical Institutions",
             "projectsdetails": [
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "01.png",
                     "description_details": "Doctors can see patient appointment, prescription and treatment, pharmacist can keep medicine record and provide medication, Laboratorist can perform diagnostic test, generate test report."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "02.png",
                     "description_details": "Accountant can manage payments, invoices for patients, Receptionist can get appointment and contact doctor"
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "03.png",
                     "description_details": "The admin can monitor the whole hospital or the whole medical institution,they can monitor all the activites of the medical institution."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "04.png",
                     "description_details": "Some key features are Medication history , Medical reports management, Bed allotment and management , Invoice management and Internal Private messaging between Doctors. "
 
                 }
@@ -297,25 +297,25 @@
             "description": "Root Cave ecommerce is a turn-key ready out of the box shopping cart solution. You simply install, select your template, add products and you're ready to start accepting orders.It has order management and multiple payment gateways,multilingual support already built in.",
             "projectsdetails": [
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "01.png",
                     "description_details": "Our revolutionary design platform lets you create stores that engage shoppers and make more sales. Choose from the best responsive ecommerce templates on the market or build a fully custom site."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "02.png",
                     "description_details": "Best-in-class marketing and conversion tools enable our merchants to grow twice as fast as the industry average. Drive more traffic, convert more visitors and seamlessly sell your products in more places."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "03.png",
                     "description_details": "Root Cave comes with a fully functional Backend Administration which helps you monitor and control your users, orders ,products, categories, reports and more."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "04.png",
                     "description_details": "Root Cave ecommerce Solution provide many types of reports ,Sales Report which Calculate the total amount of sales by day, week or month.Products Viewed which View which products have been viewed the most or had the most interest from your visitors.Products Purchased View which products have been sold the most so you can better plan marketing campaigns to boost sales."
 
                 }
@@ -331,25 +331,25 @@
             "description": "Root Cave Fitness Center is a software for complete management of gyms, fitness centers, aerobic, health and other sport clubs including dance schools. This all in one solution helps you to track your work in a fitness club: track member visits, sales, create various fitness packages and services, track employee worktime, make schedulings and bookings.",
             "projectsdetails": [
                 {
-                    "mockup_details": "test.png",
+                    "mockup_details": "01.png",
                     "description_details": "Admins can monitor all the system at a glance , they can have quick look for appointment schedule, They manage trainers and members because they have the ability to view, create, update or delete trainers, members,appointments and payments."
 
                 },
 
                 {
-                    "mockup_details": "test.png",
+                    "mockup_details": "02.png",
                     "description_details": "Trainers can see his/her upcoming and previous appointments, they have access to member's physical reports for a particular date, they can browse and print the  assesment details and history of the members."
 
                 },
 
                 {
-                    "mockup_details": "test.png",
+                    "mockup_details": "03.png",
                     "description_details": "Members can manage own upcoming or previous appointments and can see or print their own assesment reports."
 
                 },
 
                 {
-                    "mockup_details": "test.png",
+                    "mockup_details": "04.png",
                     "description_details": "Some key features of the our fitness center solution is admin,trainer and member accounts , Member group management, Group appointments, Physical assesment for trainers and payment invoices for members."
 
                 }
@@ -365,25 +365,25 @@
             "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
             "projectsdetails": [
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "01.png",
                     "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "02.png",
                     "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "03.png",
                     "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
 
                 },
 
                 {
-                    "mockup_details": "responsive.png",
+                    "mockup_details": "04.png",
                     "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
 
                 }
