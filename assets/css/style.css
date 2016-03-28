@@ -101,7 +101,7 @@ ul {
 
 .header-cont h2 {
     font-size: 30px;
-    height: 150px;
+    height: 60px;
     color: #eee;
 }
 
@@ -396,4 +396,8 @@ section.aboutme img {
     background: url('../img/overlay.png'), url('../img/stars.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+.bfh-selectbox .bfh-selectbox-options ul {
+    max-width: 100% !important;
 }
