@@ -119,31 +119,31 @@
         {
             "mockup": "crm.png",
             "id": 0,
-            "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "tDesc": "Root Cave offers a broad suite of CRM applications for small, mid-market and enterprise organizations, with a focus on sales and support...",
             "title": "CRM",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "description":"Root Cave offers a broad suite of CRM applications for small, mid-market and enterprise organizations, with a focus on sales and support. Our Solution has capabilities that include, sales management (its heritage), marketing automation, partner relationship management and customer service. These help organizations manage customer accounts, track sales leads, conduct and monitor marketing campaigns and provide service post sale. ",
             "projectsdetails": [
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Hello 0 Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Connect with your Customers, Be where your customers are. Engage and communicate with them via Email, Phone, Chat and Social from within your CRM account."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Automate. Be Productive,  Automate your day-to-day business activities so that you can focus on selling and not on maintaining data.."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Track your Sales Activities, Gain complete visibility of your sales cycle. Align your sales efforts with business strategies and objectives."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Extend your CRM, Integrate your CRM account with other applications to create a fully scalable, customized business solution."
 
                 }
             ]
@@ -152,64 +152,66 @@
         {
             "mockup": "hr.png",
             "id": 1,
-            "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "tDesc": "Root Cave solutions help organizations simplify human resources processes, support talent development  and maximize... ",
             "title": "HR",
-            "description": "hello ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "description": "Root Cave solutions help organizations simplify human resources processes, support talent development, and maximize employee engagement to transform strategies into measurable business outcomes. Success is simply human.",
             "projectsdetails": [
+
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "product 1 Hi  everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Time and attendance management, Optimize the deployment and utilization of each employee's working time."
+
+                },
+
+
+                {
+                    "mockup_details": "responsive.png",
+                    "description_details": "Core human resources and payroll, Deliver flexible and efficient global HR processes."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Hi 2 ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Talent management Attract, develop, and retain talent to achieve business results and prepare for the future."
 
                 },
-
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
-
-                },
-
-                {
-                    "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Human capital analytics, Increase the success of workforce strategies with reliable, real-time, relevant insight."
 
                 }
+
             ]
         },
 
         {
             "mockup": "finance.png",
             "id": 2,
-            "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "tDesc": "Businesses ultimately succeed or fail based on their ability to create and manage a profitable business. The combination of a competitive,...",
             "title": "Financial",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "description": "Businesses ultimately succeed or fail based on their ability to create and manage a profitable business. The combination of a competitive, global environment and mandatory regulatory compliance means that successfully managing your finances is one of the biggest challenges and opportunities you can face.",
             "projectsdetails": [
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Improve customer satisfaction. Accelerate cash flow. Reduce the risk of errors in financial results. With Root Cave Revenue Management, you can manage the entire contract-to-cash lifecycle for more efficient, accurate processes and accounting results."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Root Cave Management Reporting goes beyond the basics of financial reporting. It provides the information you need to more effectively support the business—without any additional investment for external systems."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Rooot Cave Expenses allows workers to easily enter their expenses. The results are lower costs, more accurate accounting, and more timely reimbursements."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Root Cave Financial Management goes beyond the basics of accounting and focuses on speed, agility, cost, and insights. These unified applications include a full range of finance and accounting capabilities."
 
                 }
             ]
@@ -218,7 +220,7 @@
         {
             "mockup": "school.png",
             "id": 3,
-            "tDesc": "Root Cave School is a user-friendly, highly scalable and customizable cloud-based school management software to meet the unique needs of schools , universities and learning centers. Give mobile access to student community...",
+            "tDesc": "Root Cave School is a user-friendly, highly scalable and customizable cloud-based school management software to meet the unique needs of schools...",
             "title": "School",
             "description": "Root Cave School is a user-friendly, highly scalable and customizable cloud-based school management software to meet the unique needs of schools , universities and learning centers. Give mobile access to student community and provide instant visibility to attendance, grades, fee payments and reports.",
             "projectsdetails": [
@@ -284,31 +286,31 @@
         {
             "mockup": "ecommerce.png",
             "id": 5,
-            "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "tDesc": "Root Cave ecommerce is a turn-key ready out of the box shopping cart solution. You simply install, select your template, add product...",
             "title": "Ecommerce",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "description": "Root Cave ecommerce is a turn-key ready out of the box shopping cart solution. You simply install, select your template, add products and you're ready to start accepting orders.It has order management and multiple payment gateways,multilingual support already built in.",
             "projectsdetails": [
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Our revolutionary design platform lets you create stores that engage shoppers and make more sales. Choose from the best responsive ecommerce templates on the market or build a fully custom site."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Best-in-class marketing and conversion tools enable our merchants to grow twice as fast as the industry average. Drive more traffic, convert more visitors and seamlessly sell your products in more places."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Root Cave comes with a fully functional Backend Administration which helps you monitor and control your users, orders ,products, categories, reports and more."
 
                 },
 
                 {
                     "mockup_details": "responsive.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Root Cave ecommerce Solution provide many types of reports ,Sales Report which Calculate the total amount of sales by day, week or month.Products Viewed which View which products have been viewed the most or had the most interest from your visitors.Products Purchased View which products have been sold the most so you can better plan marketing campaigns to boost sales."
 
                 }
             ]
