@@ -35,18 +35,19 @@ include "config.php";
 
     <section class="products padding white" data-ng-controller="aboutCtrl" id="products">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6" data-ng-repeat="product in lobProduct">
+            <div class="row" ng-repeat="items in lobProduct track by $index" ng-if="$index % 2 == 0">
+                <div class="col-sm-6" ng-repeat="i in [$index, $index + 1]"
+               ng-if="lobProduct[i]">
                     <div class="product">
                         <div class="col-sm-6">
-                            <img src="<?php echo $img_lob_teaser; ?>{{product.mockup}}" class="img-responsive">
+                            <img src="<?php echo $img_lob_teaser; ?>{{lobProduct[i].mockup}}" class="img-responsive">
                         </div>
                         <div class="col-sm-6">
-                            <h2>{{product.title}}</h2>
+                            <h2>{{lobProduct[i].title}}</h2>
                             <p>
-                                {{product.tDesc}}
+                                {{lobProduct[i].tDesc}}
                             </p>
-                            <a href="product.php?id={{product.id}}" class="btn btn-primary">Learn More</a>
+                            <a href="product.php?id={{lobProduct[i].id}}" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
