@@ -23,9 +23,10 @@ $x = [
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="Description" content="Root Cave is a Software House based in Egypt , delivering state of art line of business mobile and web application.
-
+        
 Root Cave has it's own cloud based ERP and CRM Solutions together with cloud based School and Medical Management Systems.">
         <meta name="Keywords" content="erp,crm,mobile development, cloud erp , cloud erp companies, cheap cloud erp ,medical software, hospital management system , school management systems , schools softwares ,android development companies, mobile development companies, erp demo , software demo">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
 
         <!-- meta tags -->
 
