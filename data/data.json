@@ -360,31 +360,31 @@
             "mockup": "helpdesk.png",
             "id": 7,
             "slug":"helpdesk",
-            "tDesc": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "tDesc": "Root Cave Helpdesk is a software for complete management of gyms, fitness centers, aerobic, health and other sport clubs including dance schools...",
             "title": "Helpdesk",
-            "description": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei.",
+            "description": "Root Cave Helpdesk is a software for complete management of gyms, fitness centers, aerobic, health and other sport clubs including dance schools. This all in one solution helps you to track your work in a fitness club: track member visits, sales, create various fitness packages and services, track employee worktime, make schedulings and bookings.",
             "projectsdetails": [
                 {
                     "mockup_details": "01.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Our self-service portal makes it easy to request help, search knowledge bases and track progress on issues."
 
                 },
 
                 {
                     "mockup_details": "02.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Powerful Ticketing, deep customization capabilities let you give each customer a support experience tailored just for them, with ticket fields and workflows that make sense to you.."
 
                 },
 
                 {
                     "mockup_details": "03.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Smart Automations, tickets are categorized, prioritized & assigned to the right agent or support group, automatically."
 
                 },
 
                 {
                     "mockup_details": "04.png",
-                    "description_details": "Lorem ipsum dolor sit amet, perfecto accusata ad qui, amet adhuc everti ut pri. Recusabo periculis patrioque an duo. Suas alienum eos at, at nibh soleat nostrud mel. Eu eam alii sanctus sadipscing, eos nusquam voluptaria et, nominati volutpat maiestatis has ei."
+                    "description_details": "Collect all information, problems and requirements from your customers and let LiveAgent process it. Route it to the right support representatives at the right time."
 
                 }
             ]

@@ -2,8 +2,8 @@
     include 'config.php';
     include ($includes.'head.php');
     include ('loading.php');
+    
 ?>
-
 
 <!-- Header Start ---->
 <header class="header" id="header">
