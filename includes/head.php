@@ -1,3 +1,12 @@
+<?php 
+
+$x = [
+    "index.php#aboutUs",
+    "index.php#customers"
+];
+
+
+?>
 <!DOCTYPE html>
 <html lang="en" ng-app="rootCave">
 

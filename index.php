@@ -2,7 +2,10 @@
     include 'config.php';
     include ($includes.'head.php');
     include ('loading.php');
-    
+    $x = [
+            "#aboutUs",
+            "#customers"
+        ];
 ?>
 
 <!-- Header Start ---->
@@ -33,7 +36,7 @@
 <!-- Header ---->
 
 
-<section class="aboutme padding white" id=aboutUs>
+<section class="aboutme padding white" id='aboutUs'>
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
