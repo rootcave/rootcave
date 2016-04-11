@@ -44,7 +44,7 @@
                         <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true" class="form-control">
                             <input type="hidden" value="country">
                             <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-                                <span class="bfh-selectbox-option input-medium" data-option=""></span>
+                                <span  class="bfh-selectbox-option input-medium" data-option=""></span>
                                 <b class="caret"></b>
                             </a>
                             <div class="bfh-selectbox-options" class="form-control">

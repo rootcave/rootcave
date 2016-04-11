@@ -27,7 +27,7 @@
                         <p >
                           <?php echo $json['lobProduct'][$id]['description'];  ?>
                         </p>
-                        <button type="button" class="btn btn-primary">Ask for trial</button>
+                        <a href=demo.php type="button" class="btn btn-primary">Ask for trial</a>
                     </div>
                 </div>
             </div>

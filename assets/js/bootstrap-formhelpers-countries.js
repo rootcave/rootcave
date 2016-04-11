@@ -119,9 +119,9 @@
       for (country in countries) {
         if (countries.hasOwnProperty(country)) {
           if (this.options.flags === true) {
-            $options.append('<li><a tabindex="-1" href="#" data-option="' + country + '"><i class="glyphicon bfh-flag-' + country + '"></i>' + countries[country] + '</a></li>');
+            $options.append('<li><a tabindex="-1" value="'+country +'" href="#" data-option="' + country + '"><i class="glyphicon bfh-flag-' + country + '"></i>' + countries[country] + '</a></li>');
           } else {
-            $options.append('<li><a tabindex="-1" href="#" data-option="' + country + '">' + countries[country] + '</a></li>');
+            $options.append('<li><a tabindex="-1" value="'+country +'" href="#" data-option="' + country + '">' + countries[country] + '</a></li>');
           }
         }
       }
